@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 from typing import Dict, Any, List, Optional
 
-from .db import redis_sim, postgres_sim
+from db import redis_sim, postgres_sim
 from .poison_engine import poison_engine, TRACKERS
 from .privacy_parser import privacy_parser
 
